@@ -1,0 +1,10 @@
+{
+  "name": "denoboot",
+  "version": "0.0.0",
+  "description": "Deno Boot wrapper for deno.land/x, forwarding to @denoboot/* on JSR",
+  "type": "module",
+  "exports": "./mod.ts",
+  "tasks": {
+    "generate-wrapper": "deno run --allow-net --allow-write --allow-env scripts/generate-wrapper.ts"
+  }
+}
