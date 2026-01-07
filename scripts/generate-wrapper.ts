@@ -16,7 +16,7 @@
 
 const GITHUB_ORG = "denoboot";
 const MAIN_REPO = "deno-boot";
-const WRAPPER_REPO = "denoboot"; // your wrapper repo name
+const WRAPPER_REPO = "denoboot";
 const BRANCH = "main";
 const PACKAGES_PATH = "packages";
 
